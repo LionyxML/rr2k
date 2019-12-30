@@ -1,7 +1,7 @@
-rR2K
-----
+rx-r2k
+------
 
-This is a python3/tk written romaji to kana converter.
+This is a python3/tk written software aimed to convert romaji into kana.
 
 To use when keyboard changes are not possible or just for training.
 

@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-# Arquivo : r2k.py
+# Arquivo : rx-r2k.py
 # Programa: romaji to kana
 # Autor   : Rahul Martim Juliato
 # Versão  : 0.1  -  27.04.2018
+# Versão  : 0.2  -  29.12.2019
 
 
 #---===[0. Bibliotecas]===---
@@ -27,15 +28,17 @@ def quit():
 def sobre():
     """ Mostra as informações do programa
     """
-    mb.showinfo("rr2kX",'''
+    mb.showinfo("rx-r2k",'''
 
-r[r2k]X
+rx-r2k
+
 Conversor de Romaji para Kana
 
-Versão: 0.1
+Versão: 0.2
 
-Autor: Rahul Martim Juliato
-(rahul.juliato@gmail.com)
+Rahul Martim Juliato
+rahul.juliato@gmail.com
+www.rahuljuliato.com
 
 ''')
 
@@ -67,7 +70,7 @@ def converter():
 # 2.0. Definições principais da janela
 janela = tk.Tk()
 #janela.geometry("500x200")
-janela.wm_title('rr2kX v0.1')
+janela.wm_title('rx-r2k v0.2')
 janela.wm_minsize(380,180)
 janela.grid_anchor(anchor='c')
 #janela.tk_setPalette('gray')
