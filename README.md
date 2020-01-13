@@ -15,5 +15,6 @@ Screenshots
 ----------
 ![Main Screen - Windows](images/1.png)
 ![Main Screen - Linux](images/2.png)
+![Example](images/3.gif)
 
 
