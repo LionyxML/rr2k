@@ -13,14 +13,16 @@ from tkinter import ttk
 
 
 def quit():
-    """ Sai do programa destruindo o necessário
+    """ 
+        Sai do programa destruindo o necessário
     """
     global janela
     janela.destroy()
 
 
 def sobre():
-    """ Mostra as informações do programa
+    """ 
+        Mostra as informações do programa
     """
     mb.showinfo("rx-r2k", '''
 
